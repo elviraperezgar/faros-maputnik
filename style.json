@@ -1,0 +1,42 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key={key}"
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "fondo",
+      "type": "background",
+      "paint": {"background-color": "rgba(224, 255, 195, 1)"}
+    },
+    {
+      "id": "agua",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "paint": {"fill-color": "rgba(77, 214, 249, 1)"}
+    },
+    {
+      "id": "límites",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "paint": {"line-opacity": 0.5, "line-width": 0.5}
+    },
+    {
+      "id": "lugares",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "paint": {"circle-color": "rgba(246, 146, 146, 1)"}
+    }
+  ],
+  "id": "zdu7afx36"
+}
