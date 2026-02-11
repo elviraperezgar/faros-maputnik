@@ -16,7 +16,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Faros La Palma',
-    subtitle: 'Storytelling de Faros de La Palma',
+    subtitle: 'Cuatro grandes faors de La Palma',
     byline: 'Por Elvira Pérez',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
