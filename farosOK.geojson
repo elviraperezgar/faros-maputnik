@@ -1,0 +1,65 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 1,
+                "Id": 0,
+                "Municipio": "Tazacorte"
+            },
+            "geometry": {
+                "coordinates": [
+                    -17.925654770545254,
+                    28.596682943009345
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 2,
+                "Id": 0,
+                "Municipio": "Fuencaliente"
+            },
+            "geometry": {
+                "coordinates": [
+                    -17.84310129774418,
+                    28.455287740302268
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 3,
+                "Id": 0,
+                "Municipio": "Villa de Mazo"
+            },
+            "geometry": {
+                "coordinates": [
+                    -17.760471082757682,
+                    28.569926622413455
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 4,
+                "Id": 0,
+                "Municipio": "Barlovento"
+            },
+            "geometry": {
+                "coordinates": [
+                    -17.778115240169008,
+                    28.83907216952715
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
